@@ -1,0 +1,6 @@
+framework module Pods_LBStarView_Example {
+  umbrella header "Pods-LBStarView_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}

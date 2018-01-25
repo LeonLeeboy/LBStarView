@@ -1,0 +1,6 @@
+framework module LBStarView {
+  umbrella header "LBStarView-umbrella.h"
+
+  export *
+  module * { export * }
+}
