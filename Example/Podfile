@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'LBStarView_Example' do
+  pod 'LBStarView', :path => '../'
+
+  target 'LBStarView_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
