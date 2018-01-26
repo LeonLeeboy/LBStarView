@@ -42,18 +42,19 @@
 		14D539D7F9B827602FEA9A85D61C2D3B /* LBStarContentView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = LBStarContentView.m; sourceTree = "<group>"; };
 		173D966EAAFBC52FD656FB318D773265 /* Pods-LBStarView_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LBStarView_Example.release.xcconfig"; sourceTree = "<group>"; };
 		2BBFEAF34BFE27FEFEEB334F742C881A /* LBStarView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = LBStarView.h; sourceTree = "<group>"; };
-		3303488643F2074253C652EB96A9A55E /* LBStarView.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = LBStarView.modulemap; sourceTree = "<group>"; };
+		2C2BE3A5201B2EAB004EB42B /* LBStarViewBundle.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = LBStarViewBundle.bundle; sourceTree = "<group>"; };
+		3303488643F2074253C652EB96A9A55E /* LBStarView.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = LBStarView.modulemap; sourceTree = "<group>"; };
 		331B75A2CB0DE25A242B0F09896C5FD4 /* Pods-LBStarView_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LBStarView_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		3C51FF604B4FED64545B6DA8B648D320 /* Pods-LBStarView_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-LBStarView_Example-umbrella.h"; sourceTree = "<group>"; };
 		3ED3110CDA823D566D72FC6223DA0AAA /* LBStarView-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LBStarView-prefix.pch"; sourceTree = "<group>"; };
 		402F3676ACB8740BC6983443CCD377F0 /* Pods-LBStarView_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LBStarView_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		4950B15C555BC1CBE177FD7B03349322 /* Pods-LBStarView_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-LBStarView_Example.modulemap"; sourceTree = "<group>"; };
+		4950B15C555BC1CBE177FD7B03349322 /* Pods-LBStarView_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-LBStarView_Example.modulemap"; sourceTree = "<group>"; };
 		49548071BAB967C815FDCC747C7313EB /* LBStarView-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LBStarView-umbrella.h"; sourceTree = "<group>"; };
-		4B0C4BB3118132CDBB752B1F6997101E /* Pods_LBStarView_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_LBStarView_Tests.framework; path = "Pods-LBStarView_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4B0C4BB3118132CDBB752B1F6997101E /* Pods_LBStarView_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LBStarView_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		52E39265892D3A103F0BA7428C0C9461 /* LBStarView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "LBStarView-dummy.m"; sourceTree = "<group>"; };
 		5589FD361F30DDF30F9C121FD9A0F0F4 /* Pods-LBStarView_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-LBStarView_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		5FA2F7D5F85DA99DDEB57803A70E325E /* LBStarItemView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = LBStarItemView.m; sourceTree = "<group>"; };
-		656AA4BBF5D77E46775DBEFB1E7A1D86 /* Pods_LBStarView_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_LBStarView_Example.framework; path = "Pods-LBStarView_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		656AA4BBF5D77E46775DBEFB1E7A1D86 /* Pods_LBStarView_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LBStarView_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		69E5E944CAE1D00E5A4B38557D53E4F5 /* LBStarItemView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = LBStarItemView.h; sourceTree = "<group>"; };
 		6DF9DFD0B32D8D4E3A774B2534ED120B /* Pods-LBStarView_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-LBStarView_Tests-frameworks.sh"; sourceTree = "<group>"; };
@@ -62,7 +63,7 @@
 		8BE10A329031626C436CC44B62D8559C /* Pods-LBStarView_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LBStarView_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		8CA29B9BFA2A3546BE54DDA89E6BE05E /* ILBStarView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ILBStarView.h; sourceTree = "<group>"; };
 		8E658460EC815DB87ED4E226FF0C85E4 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		9F1657118A15EA686599DDE5E6A82340 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A56F089ACBACBE837884E2AA3B6CFCCF /* Pods-LBStarView_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-LBStarView_Tests-dummy.m"; sourceTree = "<group>"; };
 		B4F8BB7CA7EEA867919790C57E0710A4 /* ILBStarItemView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ILBStarItemView.h; sourceTree = "<group>"; };
@@ -74,8 +75,8 @@
 		EC9C83D0AC58B718383E4AF35FC45A1A /* Pods-LBStarView_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-LBStarView_Tests-resources.sh"; sourceTree = "<group>"; };
 		EDF26BA31F440341C2E5B4FAE9683F29 /* LBStarContentView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = LBStarContentView.h; sourceTree = "<group>"; };
 		F2EAF7A77E28705A84887E6EAF2180E3 /* LBStarView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = LBStarView.m; sourceTree = "<group>"; };
-		FB924F810766223868EA486403110F56 /* Pods-LBStarView_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-LBStarView_Tests.modulemap"; sourceTree = "<group>"; };
-		FF53F15AE4BC2F7DAAD47B7636AB241D /* LBStarView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = LBStarView.framework; path = LBStarView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FB924F810766223868EA486403110F56 /* Pods-LBStarView_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-LBStarView_Tests.modulemap"; sourceTree = "<group>"; };
+		FF53F15AE4BC2F7DAAD47B7636AB241D /* LBStarView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = LBStarView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,6 +110,7 @@
 		076E2A82D540D641E31F104EC9889021 /* .. */ = {
 			isa = PBXGroup;
 			children = (
+				2C2BE3A5201B2EAB004EB42B /* LBStarViewBundle.bundle */,
 				67EA0C536E15AF2606AA7D63E593D845 /* implmention */,
 				7DA82DA27AD8AD7678C7A4B172CF83DB /* interface */,
 			);
@@ -144,7 +146,6 @@
 				2BBFEAF34BFE27FEFEEB334F742C881A /* LBStarView.h */,
 				F2EAF7A77E28705A84887E6EAF2180E3 /* LBStarView.m */,
 			);
-			name = implmention;
 			path = implmention;
 			sourceTree = "<group>";
 		};
@@ -163,7 +164,6 @@
 				B4F8BB7CA7EEA867919790C57E0710A4 /* ILBStarItemView.h */,
 				8CA29B9BFA2A3546BE54DDA89E6BE05E /* ILBStarView.h */,
 			);
-			name = interface;
 			path = interface;
 			sourceTree = "<group>";
 		};
