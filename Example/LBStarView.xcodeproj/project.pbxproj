@@ -8,6 +8,10 @@
 
 /* Begin PBXBuildFile section */
 		0A90CF4317F9616BBBB31795 /* Pods_LBStarView_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2E68FC51D3DB16EF594FBCDC /* Pods_LBStarView_Tests.framework */; };
+		2C2BE39F201B1105004EB42B /* backgroundStar@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2C2BE39B201B1104004EB42B /* backgroundStar@2x.png */; };
+		2C2BE3A0201B1105004EB42B /* backgroundStar@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2C2BE39C201B1105004EB42B /* backgroundStar@3x.png */; };
+		2C2BE3A1201B1105004EB42B /* foregroundStar@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2C2BE39D201B1105004EB42B /* foregroundStar@2x.png */; };
+		2C2BE3A2201B1105004EB42B /* foregroundStar@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2C2BE39E201B1105004EB42B /* foregroundStar@3x.png */; };
 		6003F58E195388D20070C39A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58D195388D20070C39A /* Foundation.framework */; };
 		6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58F195388D20070C39A /* CoreGraphics.framework */; };
 		6003F592195388D20070C39A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F591195388D20070C39A /* UIKit.framework */; };
@@ -37,10 +41,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2C2BE39B201B1104004EB42B /* backgroundStar@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "backgroundStar@2x.png"; sourceTree = "<group>"; };
+		2C2BE39C201B1105004EB42B /* backgroundStar@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "backgroundStar@3x.png"; sourceTree = "<group>"; };
+		2C2BE39D201B1105004EB42B /* foregroundStar@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "foregroundStar@2x.png"; sourceTree = "<group>"; };
+		2C2BE39E201B1105004EB42B /* foregroundStar@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "foregroundStar@3x.png"; sourceTree = "<group>"; };
 		2E68FC51D3DB16EF594FBCDC /* Pods_LBStarView_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LBStarView_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		3EF641004E82F950D0439440 /* Pods-LBStarView_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LBStarView_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LBStarView_Tests/Pods-LBStarView_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		59FF15C1AF6B545D464ABA49 /* Pods_LBStarView_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LBStarView_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		5E7C51E14B8539C59791A735 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		5E7C51E14B8539C59791A735 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		6003F58A195388D20070C39A /* LBStarView_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LBStarView_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		6003F58F195388D20070C39A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -64,9 +72,9 @@
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		8B3C1A12F00583C5BE7ED532 /* Pods-LBStarView_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LBStarView_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LBStarView_Example/Pods-LBStarView_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		8FF6A6701E11D5F3036AD837 /* Pods-LBStarView_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LBStarView_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-LBStarView_Example/Pods-LBStarView_Example.release.xcconfig"; sourceTree = "<group>"; };
-		A261F990AAE60BE5B160319C /* LBStarView.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = LBStarView.podspec; path = ../LBStarView.podspec; sourceTree = "<group>"; };
+		A261F990AAE60BE5B160319C /* LBStarView.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LBStarView.podspec; path = ../LBStarView.podspec; sourceTree = "<group>"; };
 		B047C9FA40FD8130AE983669 /* Pods-LBStarView_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LBStarView_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-LBStarView_Tests/Pods-LBStarView_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		F7311CD3337E3B47716B2B40 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		F7311CD3337E3B47716B2B40 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,6 +103,17 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2C2BE392201AF44B004EB42B /* Image */ = {
+			isa = PBXGroup;
+			children = (
+				2C2BE39B201B1104004EB42B /* backgroundStar@2x.png */,
+				2C2BE39C201B1105004EB42B /* backgroundStar@3x.png */,
+				2C2BE39D201B1105004EB42B /* foregroundStar@2x.png */,
+				2C2BE39E201B1105004EB42B /* foregroundStar@3x.png */,
+			);
+			path = Image;
+			sourceTree = "<group>";
+		};
 		6003F581195388D10070C39A = {
 			isa = PBXGroup;
 			children = (
@@ -178,6 +197,7 @@
 		60FF7A9C1954A5C5007DD14C /* Podspec Metadata */ = {
 			isa = PBXGroup;
 			children = (
+				2C2BE392201AF44B004EB42B /* Image */,
 				A261F990AAE60BE5B160319C /* LBStarView.podspec */,
 				5E7C51E14B8539C59791A735 /* README.md */,
 				F7311CD3337E3B47716B2B40 /* LICENSE */,
@@ -279,9 +299,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2C2BE3A2201B1105004EB42B /* foregroundStar@3x.png in Resources */,
 				873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */,
+				2C2BE3A0201B1105004EB42B /* backgroundStar@3x.png in Resources */,
+				2C2BE39F201B1105004EB42B /* backgroundStar@2x.png in Resources */,
 				71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */,
 				6003F5A9195388D20070C39A /* Images.xcassets in Resources */,
+				2C2BE3A1201B1105004EB42B /* foregroundStar@2x.png in Resources */,
 				6003F598195388D20070C39A /* InfoPlist.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

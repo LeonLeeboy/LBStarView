@@ -7,14 +7,22 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		2750378C1426AF9C7B8AADF20C0ACB95 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
-		2C7E015F38E069D47BC6D136EA6A532B /* LBStarView-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 39326260CDD16EAB5A16DD6FECB22180 /* LBStarView-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0F708296E3FBF7E726339ED23E02F1D6 /* LBStarView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 52E39265892D3A103F0BA7428C0C9461 /* LBStarView-dummy.m */; };
 		355E96D68FD71B190729800754CB4E52 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
 		429DA7595D739B9556260CF20DC35E19 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		4EA7B6CAFCB36D374A593364BE387C1F /* LBStarView.h in Headers */ = {isa = PBXBuildFile; fileRef = 2BBFEAF34BFE27FEFEEB334F742C881A /* LBStarView.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		545BA372DC3DF7C169F9086FE83790BE /* Pods-LBStarView_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = DEE6068F47FEDB168DFB8D5D8D648575 /* Pods-LBStarView_Example-dummy.m */; };
-		570120D3C0C71CDC566D8B5F3B14222A /* LBStarView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 492F142BFFF90915CA0161E21AD5ED69 /* LBStarView-dummy.m */; };
+		62AF83337300DE9920A4890951BC8739 /* LBStarItemView.h in Headers */ = {isa = PBXBuildFile; fileRef = 69E5E944CAE1D00E5A4B38557D53E4F5 /* LBStarItemView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7601420A2334C7D05F8C0C09D9BD6890 /* LBStarContentView.h in Headers */ = {isa = PBXBuildFile; fileRef = EDF26BA31F440341C2E5B4FAE9683F29 /* LBStarContentView.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		8003ECE7A00CE8881C698A4D72371FDD /* Pods-LBStarView_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 80ADEC71C8C1615BD2452FE1B483DA32 /* Pods-LBStarView_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		92AAEB5DF1DB23CC7B051F5359591C67 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		A292B099314854BF267972D4907E35BD /* LBStarView.m in Sources */ = {isa = PBXBuildFile; fileRef = F2EAF7A77E28705A84887E6EAF2180E3 /* LBStarView.m */; };
+		A2C4684AB5D51644F00109FFBE3716BD /* ILBStarView.h in Headers */ = {isa = PBXBuildFile; fileRef = 8CA29B9BFA2A3546BE54DDA89E6BE05E /* ILBStarView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A45521E6342E06D8352381477E98A623 /* LBStarItemView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5FA2F7D5F85DA99DDEB57803A70E325E /* LBStarItemView.m */; };
+		A5A383B0EF2571BE993AFF0E1BE3428E /* LBStarView-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 49548071BAB967C815FDCC747C7313EB /* LBStarView-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		A626592F6E50E5BD25B70B19BE4E205D /* Pods-LBStarView_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A56F089ACBACBE837884E2AA3B6CFCCF /* Pods-LBStarView_Tests-dummy.m */; };
+		B235FBB25DEF2C41C606954F3F31A585 /* LBStarContentView.m in Sources */ = {isa = PBXBuildFile; fileRef = 14D539D7F9B827602FEA9A85D61C2D3B /* LBStarContentView.m */; };
+		C1CCC5424E71B13075CE1DFCF38546D2 /* ILBStarItemView.h in Headers */ = {isa = PBXBuildFile; fileRef = B4F8BB7CA7EEA867919790C57E0710A4 /* ILBStarItemView.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		F0A3F3AC12079EBE8D553108B951AD5A /* Pods-LBStarView_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 3C51FF604B4FED64545B6DA8B648D320 /* Pods-LBStarView_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
@@ -23,7 +31,7 @@
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = BF0C077241E5ADEED1A60324D14B4136;
+			remoteGlobalIDString = C9505244CCBC44E3A0B592AE12F934E8;
 			remoteInfo = LBStarView;
 		};
 /* End PBXContainerItemProxy section */
@@ -31,43 +39,51 @@
 /* Begin PBXFileReference section */
 		088FD3689F50C264CE736E4FE91B9253 /* Pods-LBStarView_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-LBStarView_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		0BF2299D73B86CFAB5852C6A791B3C62 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		14D539D7F9B827602FEA9A85D61C2D3B /* LBStarContentView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = LBStarContentView.m; sourceTree = "<group>"; };
 		173D966EAAFBC52FD656FB318D773265 /* Pods-LBStarView_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LBStarView_Example.release.xcconfig"; sourceTree = "<group>"; };
-		1F831EAD39678E55F3071F0807C71F86 /* LBStarView.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = LBStarView.modulemap; sourceTree = "<group>"; };
-		2A9F217C35F44CEC75B1ADB5774C566E /* LBStarView.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = LBStarView.xcconfig; sourceTree = "<group>"; };
+		2BBFEAF34BFE27FEFEEB334F742C881A /* LBStarView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = LBStarView.h; sourceTree = "<group>"; };
+		3303488643F2074253C652EB96A9A55E /* LBStarView.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = LBStarView.modulemap; sourceTree = "<group>"; };
 		331B75A2CB0DE25A242B0F09896C5FD4 /* Pods-LBStarView_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LBStarView_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		39326260CDD16EAB5A16DD6FECB22180 /* LBStarView-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LBStarView-umbrella.h"; sourceTree = "<group>"; };
 		3C51FF604B4FED64545B6DA8B648D320 /* Pods-LBStarView_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-LBStarView_Example-umbrella.h"; sourceTree = "<group>"; };
+		3ED3110CDA823D566D72FC6223DA0AAA /* LBStarView-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LBStarView-prefix.pch"; sourceTree = "<group>"; };
 		402F3676ACB8740BC6983443CCD377F0 /* Pods-LBStarView_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LBStarView_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		492F142BFFF90915CA0161E21AD5ED69 /* LBStarView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "LBStarView-dummy.m"; sourceTree = "<group>"; };
-		4950B15C555BC1CBE177FD7B03349322 /* Pods-LBStarView_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-LBStarView_Example.modulemap"; sourceTree = "<group>"; };
-		4B0C4BB3118132CDBB752B1F6997101E /* Pods_LBStarView_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LBStarView_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4950B15C555BC1CBE177FD7B03349322 /* Pods-LBStarView_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-LBStarView_Example.modulemap"; sourceTree = "<group>"; };
+		49548071BAB967C815FDCC747C7313EB /* LBStarView-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LBStarView-umbrella.h"; sourceTree = "<group>"; };
+		4B0C4BB3118132CDBB752B1F6997101E /* Pods_LBStarView_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_LBStarView_Tests.framework; path = "Pods-LBStarView_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		52E39265892D3A103F0BA7428C0C9461 /* LBStarView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "LBStarView-dummy.m"; sourceTree = "<group>"; };
 		5589FD361F30DDF30F9C121FD9A0F0F4 /* Pods-LBStarView_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-LBStarView_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		656AA4BBF5D77E46775DBEFB1E7A1D86 /* Pods_LBStarView_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LBStarView_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5FA2F7D5F85DA99DDEB57803A70E325E /* LBStarItemView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = LBStarItemView.m; sourceTree = "<group>"; };
+		656AA4BBF5D77E46775DBEFB1E7A1D86 /* Pods_LBStarView_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_LBStarView_Example.framework; path = "Pods-LBStarView_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		69E5E944CAE1D00E5A4B38557D53E4F5 /* LBStarItemView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = LBStarItemView.h; sourceTree = "<group>"; };
 		6DF9DFD0B32D8D4E3A774B2534ED120B /* Pods-LBStarView_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-LBStarView_Tests-frameworks.sh"; sourceTree = "<group>"; };
 		7280CF0E3D7E0697CFA471F29B892982 /* Pods-LBStarView_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-LBStarView_Example-frameworks.sh"; sourceTree = "<group>"; };
 		80ADEC71C8C1615BD2452FE1B483DA32 /* Pods-LBStarView_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-LBStarView_Tests-umbrella.h"; sourceTree = "<group>"; };
 		8BE10A329031626C436CC44B62D8559C /* Pods-LBStarView_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LBStarView_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		8CA29B9BFA2A3546BE54DDA89E6BE05E /* ILBStarView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ILBStarView.h; sourceTree = "<group>"; };
 		8E658460EC815DB87ED4E226FF0C85E4 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		9896CA00AE00322CD17B1CDE0F775DC7 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9F1657118A15EA686599DDE5E6A82340 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A56F089ACBACBE837884E2AA3B6CFCCF /* Pods-LBStarView_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-LBStarView_Tests-dummy.m"; sourceTree = "<group>"; };
-		B9A893CAC306C9197C820C88B410749A /* LBStarView-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LBStarView-prefix.pch"; sourceTree = "<group>"; };
+		B4F8BB7CA7EEA867919790C57E0710A4 /* ILBStarItemView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ILBStarItemView.h; sourceTree = "<group>"; };
+		D5606624ACBB0A3850D839CEC9A28FF1 /* LBStarView.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = LBStarView.xcconfig; sourceTree = "<group>"; };
 		DEE6068F47FEDB168DFB8D5D8D648575 /* Pods-LBStarView_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-LBStarView_Example-dummy.m"; sourceTree = "<group>"; };
 		E6B28A992E53E394E7479B144822DC66 /* Pods-LBStarView_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LBStarView_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		E97973B83D7CEE84B77ACF4B89C4D4E2 /* Pods-LBStarView_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-LBStarView_Example-resources.sh"; sourceTree = "<group>"; };
 		EAD21381B0C1358781BCE529236F255E /* Pods-LBStarView_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LBStarView_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		EC9C83D0AC58B718383E4AF35FC45A1A /* Pods-LBStarView_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-LBStarView_Tests-resources.sh"; sourceTree = "<group>"; };
-		FB924F810766223868EA486403110F56 /* Pods-LBStarView_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-LBStarView_Tests.modulemap"; sourceTree = "<group>"; };
-		FF53F15AE4BC2F7DAAD47B7636AB241D /* LBStarView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = LBStarView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EDF26BA31F440341C2E5B4FAE9683F29 /* LBStarContentView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = LBStarContentView.h; sourceTree = "<group>"; };
+		F2EAF7A77E28705A84887E6EAF2180E3 /* LBStarView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = LBStarView.m; sourceTree = "<group>"; };
+		FB924F810766223868EA486403110F56 /* Pods-LBStarView_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-LBStarView_Tests.modulemap"; sourceTree = "<group>"; };
+		FF53F15AE4BC2F7DAAD47B7636AB241D /* LBStarView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = LBStarView.framework; path = LBStarView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		618927FDFFF39BA332390200B776629F /* Frameworks */ = {
+		06BFB244E348BA449CF5AA643E9638D1 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2750378C1426AF9C7B8AADF20C0ACB95 /* Foundation.framework in Frameworks */,
+				92AAEB5DF1DB23CC7B051F5359591C67 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -90,13 +106,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		2DEB4FD301F6B56B3761EF55D884D0CC /* LBStarView */ = {
+		076E2A82D540D641E31F104EC9889021 /* .. */ = {
 			isa = PBXGroup;
 			children = (
-				E96C35B97DFDE17D58497A2A7F2B58B1 /* Support Files */,
+				67EA0C536E15AF2606AA7D63E593D845 /* implmention */,
+				7DA82DA27AD8AD7678C7A4B172CF83DB /* interface */,
 			);
-			name = LBStarView;
-			path = ../..;
+			name = ..;
+			path = LBStarView/Classes;
 			sourceTree = "<group>";
 		};
 		521B14638A93CB2A60F16E8A24F4AEF5 /* Pods-LBStarView_Tests */ = {
@@ -117,6 +134,20 @@
 			path = "Target Support Files/Pods-LBStarView_Tests";
 			sourceTree = "<group>";
 		};
+		67EA0C536E15AF2606AA7D63E593D845 /* implmention */ = {
+			isa = PBXGroup;
+			children = (
+				EDF26BA31F440341C2E5B4FAE9683F29 /* LBStarContentView.h */,
+				14D539D7F9B827602FEA9A85D61C2D3B /* LBStarContentView.m */,
+				69E5E944CAE1D00E5A4B38557D53E4F5 /* LBStarItemView.h */,
+				5FA2F7D5F85DA99DDEB57803A70E325E /* LBStarItemView.m */,
+				2BBFEAF34BFE27FEFEEB334F742C881A /* LBStarView.h */,
+				F2EAF7A77E28705A84887E6EAF2180E3 /* LBStarView.m */,
+			);
+			name = implmention;
+			path = implmention;
+			sourceTree = "<group>";
+		};
 		6911147D52F5C8730D75E7897384B8AB /* Targets Support Files */ = {
 			isa = PBXGroup;
 			children = (
@@ -124,6 +155,16 @@
 				521B14638A93CB2A60F16E8A24F4AEF5 /* Pods-LBStarView_Tests */,
 			);
 			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		7DA82DA27AD8AD7678C7A4B172CF83DB /* interface */ = {
+			isa = PBXGroup;
+			children = (
+				B4F8BB7CA7EEA867919790C57E0710A4 /* ILBStarItemView.h */,
+				8CA29B9BFA2A3546BE54DDA89E6BE05E /* ILBStarView.h */,
+			);
+			name = interface;
+			path = interface;
 			sourceTree = "<group>";
 		};
 		7DB346D0F39D3F0E887471402A8071AB = {
@@ -155,6 +196,20 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
+		CE51DC588E02BF3598235D71E7046CF9 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				9F1657118A15EA686599DDE5E6A82340 /* Info.plist */,
+				3303488643F2074253C652EB96A9A55E /* LBStarView.modulemap */,
+				D5606624ACBB0A3850D839CEC9A28FF1 /* LBStarView.xcconfig */,
+				52E39265892D3A103F0BA7428C0C9461 /* LBStarView-dummy.m */,
+				3ED3110CDA823D566D72FC6223DA0AAA /* LBStarView-prefix.pch */,
+				49548071BAB967C815FDCC747C7313EB /* LBStarView-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/LBStarView";
+			sourceTree = "<group>";
+		};
 		D35AF013A5F0BAD4F32504907A52519E /* iOS */ = {
 			isa = PBXGroup;
 			children = (
@@ -181,24 +236,20 @@
 			path = "Target Support Files/Pods-LBStarView_Example";
 			sourceTree = "<group>";
 		};
-		E96C35B97DFDE17D58497A2A7F2B58B1 /* Support Files */ = {
+		F2AF93E76AB77AF3A84A06988F2E70F7 /* LBStarView */ = {
 			isa = PBXGroup;
 			children = (
-				9896CA00AE00322CD17B1CDE0F775DC7 /* Info.plist */,
-				1F831EAD39678E55F3071F0807C71F86 /* LBStarView.modulemap */,
-				2A9F217C35F44CEC75B1ADB5774C566E /* LBStarView.xcconfig */,
-				492F142BFFF90915CA0161E21AD5ED69 /* LBStarView-dummy.m */,
-				B9A893CAC306C9197C820C88B410749A /* LBStarView-prefix.pch */,
-				39326260CDD16EAB5A16DD6FECB22180 /* LBStarView-umbrella.h */,
+				076E2A82D540D641E31F104EC9889021 /* .. */,
+				CE51DC588E02BF3598235D71E7046CF9 /* Support Files */,
 			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/LBStarView";
+			name = LBStarView;
+			path = ../..;
 			sourceTree = "<group>";
 		};
 		F44B975FA047CD7556DAA2EA0E96D4F9 /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				2DEB4FD301F6B56B3761EF55D884D0CC /* LBStarView */,
+				F2AF93E76AB77AF3A84A06988F2E70F7 /* LBStarView */,
 			);
 			name = "Development Pods";
 			sourceTree = "<group>";
@@ -214,11 +265,16 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		78C1C4FF30DBF462F222DA4EC300A07E /* Headers */ = {
+		4D10775D82BF1EE0B0EC5B80D179584D /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2C7E015F38E069D47BC6D136EA6A532B /* LBStarView-umbrella.h in Headers */,
+				C1CCC5424E71B13075CE1DFCF38546D2 /* ILBStarItemView.h in Headers */,
+				A2C4684AB5D51644F00109FFBE3716BD /* ILBStarView.h in Headers */,
+				7601420A2334C7D05F8C0C09D9BD6890 /* LBStarContentView.h in Headers */,
+				62AF83337300DE9920A4890951BC8739 /* LBStarItemView.h in Headers */,
+				A5A383B0EF2571BE993AFF0E1BE3428E /* LBStarView-umbrella.h in Headers */,
+				4EA7B6CAFCB36D374A593364BE387C1F /* LBStarView.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -268,13 +324,13 @@
 			productReference = 656AA4BBF5D77E46775DBEFB1E7A1D86 /* Pods_LBStarView_Example.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		BF0C077241E5ADEED1A60324D14B4136 /* LBStarView */ = {
+		C9505244CCBC44E3A0B592AE12F934E8 /* LBStarView */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = F7C03CA69EBB91DCD9E63811EAA64685 /* Build configuration list for PBXNativeTarget "LBStarView" */;
+			buildConfigurationList = 499D3D8F261EE0F1E944DCBAF4C27D0A /* Build configuration list for PBXNativeTarget "LBStarView" */;
 			buildPhases = (
-				1D1356FB8BFA9DE666E90B46365611EC /* Sources */,
-				618927FDFFF39BA332390200B776629F /* Frameworks */,
-				78C1C4FF30DBF462F222DA4EC300A07E /* Headers */,
+				C751AD4DE126A3871639B9ABE4B845FE /* Sources */,
+				06BFB244E348BA449CF5AA643E9638D1 /* Frameworks */,
+				4D10775D82BF1EE0B0EC5B80D179584D /* Headers */,
 			);
 			buildRules = (
 			);
@@ -306,7 +362,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				BF0C077241E5ADEED1A60324D14B4136 /* LBStarView */,
+				C9505244CCBC44E3A0B592AE12F934E8 /* LBStarView */,
 				266C23CACA6A2E524B24F40BB3542986 /* Pods-LBStarView_Example */,
 				13F4FCEFF01F32E7C6DF63BFB45D17B7 /* Pods-LBStarView_Tests */,
 			);
@@ -314,14 +370,6 @@
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
-		1D1356FB8BFA9DE666E90B46365611EC /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				570120D3C0C71CDC566D8B5F3B14222A /* LBStarView-dummy.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		535BA2EBE14EBEA2EEF65A5296B706C6 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -338,13 +386,24 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		C751AD4DE126A3871639B9ABE4B845FE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B235FBB25DEF2C41C606954F3F31A585 /* LBStarContentView.m in Sources */,
+				A45521E6342E06D8352381477E98A623 /* LBStarItemView.m in Sources */,
+				0F708296E3FBF7E726339ED23E02F1D6 /* LBStarView-dummy.m in Sources */,
+				A292B099314854BF267972D4907E35BD /* LBStarView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
 		C2176859E5688E3AEE2A423E5952C9C1 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = LBStarView;
-			target = BF0C077241E5ADEED1A60324D14B4136 /* LBStarView */;
+			target = C9505244CCBC44E3A0B592AE12F934E8 /* LBStarView */;
 			targetProxy = 783F39F0270EEF116A23190181603704 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -440,6 +499,35 @@
 				STRIP_INSTALLED_PRODUCT = NO;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		48DABCBE65B00F1F021BE9A84668BB05 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D5606624ACBB0A3850D839CEC9A28FF1 /* LBStarView.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/LBStarView/LBStarView-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/LBStarView/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/LBStarView/LBStarView.modulemap";
+				PRODUCT_NAME = LBStarView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
 			};
 			name = Debug;
 		};
@@ -563,9 +651,9 @@
 			};
 			name = Release;
 		};
-		A91BC16FFC299685B3E4BDC21AA4C078 /* Release */ = {
+		905CD73AFF07507BCDC9469D4954DCAC /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 2A9F217C35F44CEC75B1ADB5774C566E /* LBStarView.xcconfig */;
+			baseConfigurationReference = D5606624ACBB0A3850D839CEC9A28FF1 /* LBStarView.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -592,35 +680,6 @@
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Release;
-		};
-		A9E1070CAC2214B4B5D60C9A6CEF626F /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 2A9F217C35F44CEC75B1ADB5774C566E /* LBStarView.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/LBStarView/LBStarView-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/LBStarView/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/LBStarView/LBStarView.modulemap";
-				PRODUCT_NAME = LBStarView;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
 		};
 		C63BA5300011E942A9566D90A61F5386 /* Debug */ = {
 			isa = XCBuildConfiguration;
@@ -666,6 +725,15 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
+		499D3D8F261EE0F1E944DCBAF4C27D0A /* Build configuration list for PBXNativeTarget "LBStarView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				48DABCBE65B00F1F021BE9A84668BB05 /* Debug */,
+				905CD73AFF07507BCDC9469D4954DCAC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		80C49B3BE5946AF2F7520A50C7640FB2 /* Build configuration list for PBXNativeTarget "Pods-LBStarView_Tests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -680,15 +748,6 @@
 			buildConfigurations = (
 				C63BA5300011E942A9566D90A61F5386 /* Debug */,
 				757BDB05B559B3861D0C1BD2B93E68AD /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		F7C03CA69EBB91DCD9E63811EAA64685 /* Build configuration list for PBXNativeTarget "LBStarView" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				A9E1070CAC2214B4B5D60C9A6CEF626F /* Debug */,
-				A91BC16FFC299685B3E4BDC21AA4C078 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

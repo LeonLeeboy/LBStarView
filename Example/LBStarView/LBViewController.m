@@ -7,8 +7,9 @@
 //
 
 #import "LBViewController.h"
+#import "LBStarView.h"
 
-@interface LBViewController ()
+@interface LBViewController ()<LBStarViewDelegate>
 
 @end
 
@@ -17,7 +18,17 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
+    LBStarView *view = [LBStarView starViewWithNumbers:5 backImageName:@"backgroundStar" foreImageName:@"foregroundStar"];
+    view.delegate = self;
+    [view setScore:4.2];
+    [self.view addSubview:view];
+    view.frame = CGRectMake(10, 100, 250, 50);
 	// Do any additional setup after loading the view, typically from a nib.
+}
+
+- (void)starView:(LBStarView *)starView score:(CGFloat)score{
+    
+    NSLog(@"-------%f----",score);
 }
 
 - (void)didReceiveMemoryWarning

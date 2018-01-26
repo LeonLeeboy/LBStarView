@@ -10,6 +10,11 @@
 #endif
 #endif
 
+#import "LBStarContentView.h"
+#import "LBStarItemView.h"
+#import "LBStarView.h"
+#import "ILBStarItemView.h"
+#import "ILBStarView.h"
 
 FOUNDATION_EXPORT double LBStarViewVersionNumber;
 FOUNDATION_EXPORT const unsigned char LBStarViewVersionString[];
