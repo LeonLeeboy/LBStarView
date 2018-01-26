@@ -47,6 +47,11 @@
     return self;
 }
 
+- (void)awakeFromNib{
+    [super awakeFromNib];
+    [self prepare];
+}
+
 - (void)refreshUIWithStarNumbers:(NSUInteger)starNumber BackImageName:(NSString *)backImageName foreImageName:(NSString *)foreImageName{
     if (![_backImageName isEqualToString:backImageName]) {
         _backImageName = backImageName;

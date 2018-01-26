@@ -1,4 +1,16 @@
 # LBStarView
+## 辛辛苦苦点进来，～留个star吧～
+
+![](http://g.recordit.co/MpdIkip9T2.gif)
+
+### demo
+```
+LBStarView *view = [LBStarView starViewWithNumbers:5 backImageName:@"backgroundStar" foreImageName:@"foregroundStar"];
+[self.view addSubview:view];
+// 可以masonry ，可以纯代码
+view.frame = CGRectMake(10, 100, 250, 50);
+```
+
 
 [![CI Status](http://img.shields.io/travis/j1103765636@iCloud.com/LBStarView.svg?style=flat)](https://travis-ci.org/j1103765636@iCloud.com/LBStarView)
 [![Version](https://img.shields.io/cocoapods/v/LBStarView.svg?style=flat)](http://cocoapods.org/pods/LBStarView)
@@ -22,7 +34,7 @@ pod 'LBStarView'
 
 ## Author
 
-j1103765636@iCloud.com, 1103765636@qq.com
+Leon lee
 
 ## License
 
