@@ -10,8 +10,9 @@
 @protocol ILBStarItemView <NSObject>
 
 @required
+//初始化 ， 用这个方法初始化
 + (instancetype)itemViewWithImageViewName:(NSString *)imageName;
-
+// 刷新
 - (void)refreshUIWithImageName:(NSString *)imageName;
 
 @end

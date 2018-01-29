@@ -10,10 +10,15 @@
 
 @class LBStarView;
 
+
+
 @protocol LBStarViewDelegate<NSObject>
 
 @optional
 
+/**
+ 我们进行拖动的时候，通过代理返回的分数；
+ */
 - (void)starView:(LBStarView *)starView score:(CGFloat)score;
 
 @end

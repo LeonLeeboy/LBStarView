@@ -37,6 +37,7 @@
 
 + (instancetype)starViewWithNumbers:(NSUInteger)numbers backImageName:(NSString *)backImageName foreImageName:(NSString *)foreImageName{
     LBStarView *view = [[self alloc] init];
+    // 这边最好用refresh ，一开始设计的时候用的reset ， 后来想了想对象已经创建好了，用刷新更好一点。如果碰到需要按照数据来进行重新弄初始化，在refresh 中处理掉就好了，外部尽量不要用reset。避免借口复杂性。
     [view refreshUIWithStarNumbers:numbers BackImageName:backImageName foreImageName:foreImageName];
     return view;
 }
@@ -47,10 +48,12 @@
     return self;
 }
 
+// for xib
 - (void)awakeFromNib{
     [super awakeFromNib];
     [self prepare];
 }
+
 
 - (void)refreshUIWithStarNumbers:(NSUInteger)starNumber BackImageName:(NSString *)backImageName foreImageName:(NSString *)foreImageName{
     if (![_backImageName isEqualToString:backImageName]) {
@@ -70,6 +73,7 @@
 
 - (void)willMoveToSuperview:(UIView *)newSuperview{
     [self removeObservers];
+    // 通过nil 来判断是进入改页面 还是离开该页面。
     if (newSuperview != nil) {
         [self addObservers];
     }
