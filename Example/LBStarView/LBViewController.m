@@ -20,6 +20,8 @@
     [super viewDidLoad];
     LBStarView *view = [LBStarView starViewWithNumbers:5 backImageName:@"backgroundStar" foreImageName:@"foregroundStar"];
     view.delegate = self;
+    [view setOnlyHalf:YES];
+    [view setInterStar:YES];
     [view setScore:4.2];
     [self.view addSubview:view];
     view.frame = CGRectMake(10, 100, 250, 50);

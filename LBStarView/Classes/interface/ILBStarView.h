@@ -23,9 +23,19 @@
 
 /**
  设置是否是只能可读
-
- @param flag <#flag description#>
  */
 - (void)setOnlyread:(BOOL)flag;
+
+
+/**
+ 设置是否有1.3，1.2，5.6 这种类型的分数。 //未实现，先填坑 （eg:1.3 -> 1.5 , 1.6 -> 2.0）
+ */
+- (void)setOnlyHalf:(BOOL)onlyHalf;
+
+
+/**
+ 只有 1 ，2 ，3 ，4 ， 5 这种类型的分数。
+ */
+- (void)setInterStar:(BOOL)onlyInteger;
 
 @end
