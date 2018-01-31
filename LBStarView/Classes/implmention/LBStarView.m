@@ -60,11 +60,11 @@
 
 
 - (void)refreshUIWithStarNumbers:(NSUInteger)starNumber BackImageName:(NSString *)backImageName foreImageName:(NSString *)foreImageName{
-    if (![_backImageName isEqualToString:backImageName]&& _backImageName != nil && ![_backImageName isEqualToString:@""]) {
+    if (![_backImageName isEqualToString:backImageName]&& foreImageName != nil && ![backImageName isEqualToString:@""]) {
         _backImageName = backImageName;
         [_backView refresUIWithImageName:backImageName];
     }
-    if (![_foreImagename isEqualToString:foreImageName] && _foreImagename != nil && ![_foreImagename isEqualToString:@""]) {
+    if (![_foreImagename isEqualToString:foreImageName] && foreImageName != nil && ![backImageName isEqualToString:@""]) {
         _foreImagename = foreImageName;
         [_foreinView refresUIWithImageName:foreImageName];
     }

@@ -50,8 +50,9 @@
 //     self.imageView.image = [UIImage imageNamed:imageName];
     if ([imageName containsString:@"LBStar"]) {
         NSLog(@"-------imageName:%@----",imageName);
-        self.imageView.image =  [UIImage imageNamed:imageName inBundle:[NSBundle bundleForClass:self.class]
+        UIImage *image=  [UIImage imageNamed:imageName inBundle:[NSBundle bundleForClass:self.class]
                       compatibleWithTraitCollection:nil];
+        self.imageView.image = image;
     }else{
         self.imageView.image = [UIImage imageNamed:imageName];
     }

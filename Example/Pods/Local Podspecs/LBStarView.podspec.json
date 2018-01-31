@@ -23,9 +23,5 @@
     "UIKit",
     "MapKit"
   ],
-  "resource_bundles": {
-    "LBStarView": [
-      "LBStarView/Assets/*"
-    ]
-  }
+  "resources": "LBStarView/Assets/*"
 }
