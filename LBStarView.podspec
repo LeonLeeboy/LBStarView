@@ -19,7 +19,7 @@ Pod::Spec.new do |s|
 
   s.source_files = 'LBStarView/Classes/**/*'
   s.frameworks = 'UIKit', 'MapKit'
-  s.resource = 'LBStarView/Assets/*'
+   s.resource = 'LBStarView/Assets/*'
 
 
 end
