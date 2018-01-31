@@ -1,5 +1,5 @@
 PODS:
-  - LBStarView (0.1.0)
+  - LBStarView (1.1.0)
 
 DEPENDENCIES:
   - LBStarView (from `../`)
@@ -9,7 +9,7 @@ EXTERNAL SOURCES:
     :path: ../
 
 SPEC CHECKSUMS:
-  LBStarView: c0b4ec388031ed507db796ec948d3ea092a708aa
+  LBStarView: 6ac0a596deef413fb2c57beb8ba93186223cea8a
 
 PODFILE CHECKSUM: f16446658ced174910d16becb799c04657cfb769
 

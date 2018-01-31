@@ -24,7 +24,8 @@
 
 + (instancetype)itemViewWithImageViewName:(NSString *)imageName{
     LBStarItemView *view = [[LBStarItemView alloc] init];
-    [view refreshUIWithImageName:view.imageName];
+    view.imageName = imageName;
+    [view refreshUIWithImageName:imageName];
     return view;
 }
 
@@ -46,7 +47,15 @@
 
 - (void)refreshUIWithImageName:(NSString *)imageName{
     _imageName = imageName;
-    self.imageView.image = [UIImage imageNamed:imageName];
+//     self.imageView.image = [UIImage imageNamed:imageName];
+    if ([imageName containsString:@"LBStar"]) {
+        NSLog(@"-------imageName:%@----",imageName);
+        self.imageView.image =  [UIImage imageNamed:imageName inBundle:[NSBundle bundleForClass:self.class]
+                      compatibleWithTraitCollection:nil];
+    }else{
+        self.imageView.image = [UIImage imageNamed:imageName];
+    }
+    
 }
 
 - (void)layoutSubviews{

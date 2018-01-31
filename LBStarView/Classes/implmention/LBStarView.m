@@ -60,11 +60,11 @@
 
 
 - (void)refreshUIWithStarNumbers:(NSUInteger)starNumber BackImageName:(NSString *)backImageName foreImageName:(NSString *)foreImageName{
-    if (![_backImageName isEqualToString:backImageName]) {
+    if (![_backImageName isEqualToString:backImageName]&& _backImageName != nil && ![_backImageName isEqualToString:@""]) {
         _backImageName = backImageName;
         [_backView refresUIWithImageName:backImageName];
     }
-    if (![_foreImagename isEqualToString:foreImageName]) {
+    if (![_foreImagename isEqualToString:foreImageName] && _foreImagename != nil && ![_foreImagename isEqualToString:@""]) {
         _foreImagename = foreImageName;
         [_foreinView refresUIWithImageName:foreImageName];
     }
@@ -206,8 +206,8 @@
 - (void)prepare{
     // data
     _starNumbers = 5;
-    _backImageName = @"";
-    _foreImagename = @"";
+    _backImageName = @"LBStarbackgroundStar";
+    _foreImagename = @"LBStarforegroundStar";
     _percent = 0.0;
     _onlyRead = NO;
     _onlyHalfStar = NO;

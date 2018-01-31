@@ -8,6 +8,7 @@
 
 #import "LBViewController.h"
 #import "LBStarView.h"
+//#import <LBSDK/LBPerson.h>
 
 @interface LBViewController ()<LBStarViewDelegate>
 
@@ -18,13 +19,14 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-    LBStarView *view = [LBStarView starViewWithNumbers:5 backImageName:@"backgroundStar" foreImageName:@"foregroundStar"];
+    LBStarView *view = [LBStarView starViewWithNumbers:5 backImageName:@"" foreImageName:@""];
     view.delegate = self;
     [view setOnlyHalf:YES];
     [view setInterStar:YES];
     [view setScore:4.2];
     [self.view addSubview:view];
     view.frame = CGRectMake(10, 100, 250, 50);
+//    [LBPerson eat];
 	// Do any additional setup after loading the view, typically from a nib.
 }
 
